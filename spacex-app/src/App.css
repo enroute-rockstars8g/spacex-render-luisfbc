@@ -1,6 +1,8 @@
 body{
 background: radial-gradient(circle, rgba(2, 17, 27, 1) 34%, rgba(236, 193, 67, 1) 52%, rgba(2, 17, 27, 1) 84%);
 }
+
+
 .mainContainer {
   text-align: center;
 }
@@ -64,5 +66,51 @@ background: radial-gradient(circle, rgba(2, 17, 27, 1) 34%, rgba(236, 193, 67, 1
   color: white;
   border-radius: 12px;
   justify-content: stretch;
+}
+
+.cardLinks{
+  font-size: 10px;
+  width: 40%;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin: 10px auto;
+  background: #C83E4D;
+  border-radius: 5px;
+}
+
+.cardTwitter {
+  font-size: 10px;
+  width: 40%;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin: 10px auto;
+  background: #5688C7;
+  border-radius: 5px;
+}
+
+.cardWikipedia {
+  font-size: 10px;
+  width: 40%;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin: 10px auto;
+  background: #808F85;
+  border-radius: 5px;
+}
+
+
+a {
+  color: white;
+  text-decoration: none;
+  padding: 14px 25px;
 }
 
