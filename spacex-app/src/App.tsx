@@ -1,8 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+import './App.css';
+import { FC } from 'react';
+import { MissionDisplay } from './components/missions/component';
+
+
+export const App: FC = () => {
+
+  return(
+    <>
+      <MissionDisplay/>
+    </>
+  );
+  
+  
+  
+  /*
   return (
     <div className="App">
       <header className="App-header">
@@ -21,6 +33,5 @@ function App() {
       </header>
     </div>
   );
-}
-
-export default App;
+  */
+};

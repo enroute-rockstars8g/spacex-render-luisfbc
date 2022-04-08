@@ -1,38 +1,68 @@
-.App {
+body{
+background: radial-gradient(circle, rgba(2, 17, 27, 1) 34%, rgba(236, 193, 67, 1) 52%, rgba(2, 17, 27, 1) 84%);
+}
+.mainContainer {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.divMissions{
+  width: 70%;
+  margin: 0 auto;
+  border-radius: 17px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  text-align: center;
   color: white;
+  font-size: 70px;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+.cardsContainer {
+  padding: 20px;
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card {
+  align-items: center;
+  text-align: center;
+  align-items: center;
+  background-color: #ECF0F1;
+  border-radius: 15px;
+  padding: 12px 0;
+  /* box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.2); */
 }
+
+.cardMission {
+  font-family: 'Roboto',
+  sans-serif;
+  padding: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 10px auto;
+  border-radius: 8px;
+  width: 85%;
+  height: 65px;
+  background-color: #7B0D1E;
+  color: #F8E5EE;
+}
+
+.cardDescription {
+  font-family: 'Roboto',
+  sans-serif;
+  letter-spacing: 2px;
+  overflow-y: scroll;
+  width: 85%;
+  height: 350px;
+  padding: 15px 6px;
+  margin: 5px auto;
+  background-color: #011627;
+  color: white;
+  border-radius: 12px;
+  justify-content: stretch;
+}
+
